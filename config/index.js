@@ -15,23 +15,23 @@ export const config = {
 
   /**
    * 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如
-   * //[
-   * // {
+   * [
+   *  {
    *    // 想要发送的人的名字
-   *  //  name: "佳佳",
+   *    name: "佳佳",
    *    // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-   *  //  id: "ohxOO6VskYv0Kuf-ywIZVRMpuXhk",
+   *   id: "omdNB5yfc2xR0uMN4x5fYi429-yY",
    *    // 你想对他发送的模板消息的模板ID
-   * //   useTemplateId: "zjVglIuCXo4CsraXWEio1iP7sZJ7IQEES9lDsgc4yOU",
+   *    useTemplateId: "wx893e804937d2b647",
    *    // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
-   *  //  openUrl: "https://wangxinleo.cn"
-   *  // }, 
-   * //]
+   *   openUrl: "https://wangxinleo.cn"
+   *   }, 
+   * ]
    */
   USERS: [
     {
       // 想要发送的人的名字
-      name: "佳佳",
+      name: "最挣钱的大志",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "omdNB509gtzp_KdXXcmzA6N9k_Ow",
       // 你想对他发送的模板消息的模板ID
@@ -44,11 +44,11 @@ export const config = {
       openUrl: "https://wangxinleo.cn"
     }, 
     {
-      name: "老婆1", 
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
+      name: "最可爱的佳佳", 
+      id: "omdNB5yfc2xR0uMN4x5fYi429-yY",
+      useTemplateId: "wx893e804937d2b647",
+      province: "河南",
+      city: "南阳",
       openUrl: "https://wangxinleo.cn"
     }, 
     {
